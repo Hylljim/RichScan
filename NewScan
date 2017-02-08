@@ -12,8 +12,8 @@
         img {width:100px; height:100px;padding:1px;}
 	.one{margin:auto;}
 	.two{margin:auto;}
-	.foot{margin:-214px 180px;}  
-	.all{margin:80px 80px 0px 80px;}
+	.foot{margin:-214px 150px;}  
+	.all{margin:80px 80px 0px 50px;}
     </style>
     <script type="text/javascript">  
             var _config = <%= controler.GetConfigs.getConfig(request) %>;  
