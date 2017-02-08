@@ -10,7 +10,7 @@
     <style>
          .all{background-color:#6FC;padding:1px;background:url(%E7%94%B5%E8%84%91%E6%90%AC%E5%AE%B6/Desktop/sp/03.png);width:250px;height:300px;}
         img {width:100px; height:100px;padding:1px;}
-        .foot{margin:-225px 10px 10px 120px;}
+        .foot{margin:-220px 10px 10px 120px;}
         .top{margin:30px 10px 10px 10px;}
     </style>
     <script type="text/javascript">  
