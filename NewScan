@@ -12,7 +12,7 @@
         img {width:100px; height:100px;padding:1px;}
 	.one{margin:auto;}
 	.two{margin:auto;}
-	.foot{margin:-220px 110px;}    
+	.foot{margin:-215px 110px;}    
     </style>
     <script type="text/javascript">  
             var _config = <%= controler.GetConfigs.getConfig(request) %>;  
