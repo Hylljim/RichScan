@@ -45,19 +45,19 @@
 <div class="all">
 	<div class="top">
 		<div class="one">       
-    		<img src="scan2.png"/><br/>产品防伪
+    		<img src="scan2.png"/><br/><p>产品防伪</p>
     	</div>
 		<div class="two">
-    		<img src="scan2 - 副本.png"/><br/>扫码3
+    		<img src="scan2 - 副本.png"/><br/><p>扫码3</p>
     	</div>
 	</div>
 
 	<div class="foot">
 		<div class="onere">
-    		<img src="scan2 - 副本 (2).png"/><br/>产品防窜
+    		<img src="scan2 - 副本 (2).png"/><br/><p>产品防窜</p>
     	</div>
 		<div class="twore">
-			<img src="scan2 - 副本 (3).png"/><br/>扫码4
+			<img src="scan2 - 副本 (3).png"/><br/><p>扫码4</p>
     	</div>
 	</div>
 </div>
