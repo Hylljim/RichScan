@@ -47,11 +47,11 @@
 	<div class="top">
 		<div class="one">       
     		<img src="scan2.png"/><br/>
-		<div>产品防伪</div>
+		<div><p>产品防伪</p></div>
     	</div>
 		<div class="two">
     		<img src="scan2 - 副本.png"/><br/>
-		<div>产品扫码3</div>
+		<div><p text-align=center>产品扫码3</p></div>
     	</div>
 	</div>
 
