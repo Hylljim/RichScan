@@ -47,7 +47,7 @@
 	<div class="top">
 		<div class="one">       
     		<img src="scan2.png"/><br/>
-		<div><p>产品防伪</p></div>
+		<div><p text-align=center>产品防伪</p></div>
     	</div>
 		<div class="two">
     		<img src="scan2 - 副本.png"/><br/>
@@ -58,11 +58,11 @@
 	<div class="foot">
 		<div class="onere">
     		<img src="scan2 - 副本 (2).png"/><br/>
-		<div>产品防窜</div>
+		<div><p text-align=center>产品防窜</p></div>
     	</div>
 		<div class="twore">
 			<img src="scan2 - 副本 (3).png"/><br/>
-			<div>扫码4</div>
+			<div><p text-align=center>扫码4</p></div>
     	</div>
 	</div>
 </div>
