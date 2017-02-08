@@ -12,7 +12,7 @@
         img {width:100px; height:100px;padding:1px;}
 	.top{margin:60px 10px 60px 60px;}
 	.two{margin:60px 0px 0px 0px;}
-	.onere{margin:-350px 20px 60px 20px;}
+	.onere{margin:-370px 20px 60px 80px;}
 	.twore{margin:0px 20px 60px 20px;}
     </style>
     <script type="text/javascript">  
