@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Demo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <style>
+         .all{background-color:#6FC;padding:1px;background:url(%E7%94%B5%E8%84%91%E6%90%AC%E5%AE%B6/Desktop/sp/03.png);width:250px;height:300px;}
+        img {width:100px; height:100px;padding:1px;}
+        .foot{margin:-225px 10px 10px 120px;}
+        .top{margin:30px 10px 10px 10px;}
+    </style>
+    <script type="text/javascript">  
+            var _config = <%= controler.GetConfigs.getConfig(request) %>;  
+        </script>  
+  
+<!--         调用jquery需要的库，手机版和电脑版的不同 -->
+        <script type="text/javascript" src="javascripts/zepto.min.js">  
+        </script> 
+    <script type="text/javascript" src="https://g.alicdn.com/dingding/open-develop/1.0.0/dingtalk.js"></script>
+    <script type="text/javascript" src="javascripts/demo.js"></script>
+    <script type="text/javascript">
+   function openQrCode() {
+            dd.biz.util.scan({
+            type: 'qrCode',//type为qrCode或者barCode
+            onSuccess: function(data) {
+            //onSuccess将在扫码成功之后回调
+              /* data结构
+                { 'text': String}
+              */
+            },
+           onFail : function(err) {
+           }
+        });
+      }
+
+    </script>
+</head>
+<body>
+<div class="all">
+	<div class="top">
+		<div class="one">       
+    		<img src="电脑搬家/Desktop/sp/scan2.png">
+    	</div>
+		<div class="two">
+    		<img src="电脑搬家/Desktop/sp/scan2 - 副本.png">
+    	</div>
+	</div>
+
+	<div class="foot">
+		<div class="onere">
+    		<img src="电脑搬家/Desktop/sp/scan2 - 副本 (2).png">
+    	</div>
+		<div class="twore">
+			<img src="电脑搬家/Desktop/sp/scan2 - 副本 (3).png">
+    	</div>
+	</div>
+</div>
+</body>
+</html>
