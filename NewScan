@@ -12,7 +12,7 @@
         img {width:100px; height:100px;padding:1px;}
 	.one{margin:auto;}
 	.two{margin:auto;}
-	.foot{margin:-250px 180px;}  
+	.foot{margin:-225px 180px;}  
 	.all{margin:80px 80px 0px 50px;}
 	p{font-size:9px;color:#6FC;}
     </style>
