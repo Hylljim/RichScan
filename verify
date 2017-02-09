@@ -23,11 +23,11 @@
     <script type="text/javascript" src="javascripts/demo.js"></script>
     <script type="text/javascript">
        dd.config({
-			agentId : _config.agentid,
-			corpId : _config.corpId,
-			timeStamp : _config.timeStamp,
-			nonceStr : _config.nonceStr,
-			signature : _config.signature,
+			agentId : '75710882',
+			corpId : 'ding0bc18b9f928dc17e35c2f4657eb6378f',
+			timeStamp : 0111,
+			nonceStr : 'test',
+			signature :'Jim',
 			jsApiList : [ 'runtime.info', 'biz.contact.choose',
 					'device.notification.confirm', 'device.notification.alert',
 					'device.notification.prompt', 'biz.ding.post',
