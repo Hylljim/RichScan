@@ -34,7 +34,7 @@
         		{ 'text': String}
      		 */
 		 
-               alert("123")
+               alert(data)
             },
            onFail : function(err) {
            }
