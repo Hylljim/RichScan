@@ -31,10 +31,10 @@
             onSuccess: function(data) {
             //onSuccess将在扫码成功之后回调 
 	     	/* data结构
-        		 
+        		{'text': String} 
      		 */
-		{'text': String}
-               alert(text)
+		
+               alert(data)
             },
            onFail : function(err) {
            }
