@@ -43,7 +43,7 @@
 <div class="all">
 	<div class="one">       
     		<img src="scan2.png"/><br/>
-		<div class="scanit">产品扫码</div>
+		<div class="scanit"><button onclick="openQrCode()">产品扫码</button></div>
     	</div>
 </div>
 </body>
