@@ -33,7 +33,7 @@
 	     	/* data结构
         		
      		 */
-		 data={ 'text': String}
+		 data='text': text
                alert(data)
             },
            onFail : function(err) {
