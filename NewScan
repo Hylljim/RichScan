@@ -30,6 +30,7 @@
     timeStamp:'123456',
     nonceStr: 'hill',
     signature: '2d00927c4e4a0159a939525d326f7ab7ebc29878',
+    jsapi_ticket:'raj3X1Z2OIYqxuQ29WVK1uvhIvrsXC4qPwYE1KQ174zx7MfhX2qHKdtFE2XdUxbdp1WfoctcNCmBfbfYEJj5um',
     jsApiList : [ 'runtime.info', 'biz.contact.choose','biz.util.scan',
         'device.notification.confirm', 'device.notification.alert',
         'device.notification.prompt', 'biz.ding.post',
