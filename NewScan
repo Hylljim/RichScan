@@ -29,9 +29,9 @@
 	    //type为qrCode或者barCode
             onSuccess: function(data) {
             //onSuccess将在扫码成功之后回调
-              /* data结构
-                { 'text': String}
-              */
+              
+                 String text="scan";
+              
 	      alert(data)
             },
            onFail : function(err) {
