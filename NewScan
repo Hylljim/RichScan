@@ -28,11 +28,11 @@
             type: 'barCode',type:'qrCode',
 	    //type为qrCode或者barCode
             onSuccess: function(data) {
-            //onSuccess将在扫码成功之后回调
-              
-                 String text="scan";
-              
-	      alert(data)
+            //onSuccess将在扫码成功之后回调 
+	     	/* data结构
+        		{ 'text': String}
+     		 */
+	      alert(text)
             },
            onFail : function(err) {
            }
