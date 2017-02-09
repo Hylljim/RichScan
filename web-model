@@ -35,17 +35,30 @@ dd.config({
         'biz.chat.chooseConversation',
         'biz.ding.post']
 });
-dd.ready(function(openQrCode()) {
-    dd.biz.navigation.setTitle({
-        title: 'test-demo',
-        onSuccess: function(data) {
-        },
-        onFail: function(err) {
-            log.e(JSON.stringify(err));
-        }
-    });
- function openQrCode() {
-            dd.biz.util.scan({
+dd.ready(function(res){
+          logger.i('ready');
+         dd.biz.util.scan({
+            type: 'barCode',type:'qrCode',
+	    //type为qrCode或者barCode
+            onSuccess: function(data) {
+            //onSuccess将在扫码成功之后回调 
+	     	/* data结构
+        		{'text': String} 
+     		 */
+		
+               alert(JSON.stringify(data))
+            },
+           onFail : function(err) {
+           }
+        });
+      });
+      dd.error(function(error) {
+          alert(error.errorCode);
+          alert(JSON.stringify(error));
+          logger.i('ready');
+      });
+      function openHello() {
+             dd.biz.util.scan({
             type: 'barCode',type:'qrCode',
 	    //type为qrCode或者barCode
             onSuccess: function(data) {
