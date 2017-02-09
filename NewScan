@@ -34,7 +34,7 @@
         		{'text': String} 
      		 */
 		
-               alert(data)
+               alert(JSON.stringify(data))
             },
            onFail : function(err) {
            }
