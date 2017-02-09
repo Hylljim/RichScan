@@ -25,11 +25,17 @@
 
 dd.config({
      agentId : _config.agentid,
-			corpId : _config.corpId,
-			timeStamp : _config.timeStamp,
-			nonceStr : _config.nonceStr,
-			signature : _config.signature,
-           jsApiList: ['biz.util.recordVideoToUpload','device.launcher.launchApp','biz.util','biz.map.locate','device.notification.alert','device.notification.prompt','biz.chat.pickConversation']
+			corpId :'75710882',
+			timeStamp :'1440678945',
+			nonceStr :'abcdefg',
+			signature :'799c80411967cf379af647522d9c6ba35ba6975d',
+           jsApiList: ['biz.util.recordVideoToUpload',
+	   'device.launcher.launchApp',
+	   'biz.util.scan',
+	   'biz.map.locate',
+	   'device.notification.alert',
+	   'device.notification.prompt',
+	   'biz.chat.pickConversation']
 });
 dd.ready(function(res){
           logger.i('ready');
