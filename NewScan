@@ -32,8 +32,8 @@
 	     	/* data结构
         		{ 'text': String}
      		 */
-		 text:scan
-	      alert(data)
+		 String text="123456"
+               alert(data)
             },
            onFail : function(err) {
            }
