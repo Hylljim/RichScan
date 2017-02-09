@@ -26,7 +26,7 @@
     <script type="text/javascript">
    function openQrCode() {
             dd.biz.util.scan({
-            type: 'barCode',type:'qrCode',
+            type: 'barCode',
 	    //type为qrCode或者barCode
             onSuccess: function(data) {
             //onSuccess将在扫码成功之后回调 
