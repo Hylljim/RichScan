@@ -10,7 +10,8 @@
     <style type="text/css">
          body{background:url(自行车壁纸.jpg);width:auto;height:auto;}
         img {width:100px; height:100px;} 
-	.all{margin:130px 140px 140px 160px;}
+	.all{margin:130px 140px 140px 130px;}
+	.scanit{width:200px;height:200px;color:#6FC;}
     </style>
     <script type="text/javascript">  
             var _config = <%= controler.GetConfigs.getConfig(request) %>;  
@@ -42,7 +43,7 @@
 <div class="all">
 	<div class="one">       
     		<img src="scan2.png"/><br/>
-		<p>产品扫码</p>
+		<div class="scanit">产品扫码</div>
     	</div>
 </div>
 </body>
