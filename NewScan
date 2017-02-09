@@ -32,7 +32,7 @@
               /* data结构
                 { 'text': String}
               */
-	      alert("data")
+	      alert(data)
             },
            onFail : function(err) {
            }
