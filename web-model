@@ -38,7 +38,23 @@ dd.config({
 
 dd.ready(function() {
     dd.biz.navigation.setTitle({
-        title: 'TestDemo',
+        title: 'scan',
+        function openQrCode() {
+            dd.biz.util.scan({
+            type: 'barCode',type:'qrCode',
+	    //type为qrCode或者barCode
+            onSuccess: function(data) {
+            //onSuccess将在扫码成功之后回调 
+	     	/* data结构
+        		{'text': String} 
+     		 */
+		
+               alert(JSON.stringify(data))
+            },
+           onFail : function(err) {
+           }
+        });
+      }  
         onSuccess: function(data) {
         },
         onFail: function(err) {
