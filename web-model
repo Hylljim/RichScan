@@ -24,16 +24,12 @@
     <script type="text/javascript">
 
 dd.config({
-    agentId: '',
-    corpId: _config.corpId,
-    timeStamp: _config.timeStamp,
-    nonceStr: _config.nonceStr,
-    signature: _config.signature,
-    jsApiList: ['device.notification.confirm',
-        'device.notification.alert',
-        'device.notification.prompt',
-        'biz.chat.chooseConversation',
-        'biz.ding.post']
+     agentId : _config.agentid,
+			corpId : _config.corpId,
+			timeStamp : _config.timeStamp,
+			nonceStr : _config.nonceStr,
+			signature : _config.signature,
+           jsApiList: ['biz.util.recordVideoToUpload','device.launcher.launchApp','biz.util','biz.map.locate','device.notification.alert','device.notification.prompt','biz.chat.pickConversation']
 });
 dd.ready(function(res){
           logger.i('ready');
