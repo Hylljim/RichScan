@@ -14,8 +14,7 @@
 	.two{margin:auto;}
 	.foot{margin:-260px 170px;}  
 	.all{margin:80px 80px 0px 50px;}
-	p{potition:absolute;left:0;bottom:0;}
-	.one,.two,.onere,.twore{position:relative;}
+	p{font-size:9px;}
     </style>
     <script type="text/javascript">  
             var _config = <%= controler.GetConfigs.getConfig(request) %>;  
@@ -48,22 +47,22 @@
 	<div class="top">
 		<div class="one">       
     		<img src="scan2.png"/>	
-		<p>产品防伪</p>
+		<p>111111</p>
     	</div>
 		<div class="two">
     		<img src="scan2 - 副本.png"/>	
-		<p>产品扫码3</p>
+		<p>222222</p>
     	</div>
 	</div>
 
 	<div class="foot">
 		<div class="onere">
     		<img src="scan2 - 副本 (2).png"/>
-		<p>产品防窜</p>
+		<p>333333</p>
     	</div>
 		<div class="twore">
 			<img src="scan2 - 副本 (3).png"/>
-		<p>产品扫码4</p>
+		<p>444444</p>
     	</div>
 	</div>
 </div>
