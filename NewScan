@@ -27,9 +27,10 @@
     dd.config({
     agentId: '75563885',
     corpId: 'ding0bc18b9f928dc17e35c2f4657eb6378f',
-    timeStamp:'123456',
+    timeStamp:'1234567890',
     nonceStr: 'hill',
-    signature: 'bd6c6ffd7f9c2612efd914087e4eaf0204579fd0',
+    signature: '644f21031f88923af63f69eef72e4082bcbf9470',
+    jsapi_ticket:'raj3X1Z2OIYqxuQ29WVK1uvhIvrsXC4qPwYE1KQ174zx7MfhX2qHKdtFE2XdUxbdp1WfoctcNCmBfbfYEJj5um',
     jsApiList : [ 'runtime.info', 'biz.contact.choose','biz.util.scan',
         'device.notification.confirm', 'device.notification.alert',
         'device.notification.prompt', 'biz.ding.post',
