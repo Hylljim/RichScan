@@ -10,7 +10,7 @@
     <style type="text/css">
          body{background:url(自行车壁纸.jpg);width:auto;height:auto;}
         img {width:100px; height:100px;} 
-	.all{margin:130px 160px 140px 160px;}
+	.all{margin:130px 140px 140px 160px;}
     </style>
     <script type="text/javascript">  
             var _config = <%= controler.GetConfigs.getConfig(request) %>;  
