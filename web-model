@@ -9,7 +9,7 @@
     <meta name="format-detection" content="telephone=no">
     <style>
         body {
-            background-color: purple;
+            background-color: grey;
         }
     </style>
     <script type="text/javascript">  
@@ -37,31 +37,42 @@ dd.config({
 });
 dd.ready(function(res){
           logger.i('ready');
-          dd.device.notification.alert({
-              message:"亲爱的",
-              title:"提示",
-              buttonName:"收到",
-              onSuccess : function() {
-                  logger.i('hello');
-              },
-              onFail : function(err) {logger.i(err);}
-          });
+          dd.biz.util.scan({
+            type: 'barCode',type:'qrCode',
+	    //type为qrCode或者barCode
+            onSuccess: function(data) {
+            //onSuccess将在扫码成功之后回调 
+	     	/* data结构
+        		{'text': String} 
+     		 */
+		
+               alert(JSON.stringify(data))
+            },
+           onFail : function(err) {
+           }
+        });
       });
       dd.error(function(error) {
           alert(error.errorCode);
           alert(JSON.stringify(error));
           logger.i('ready');
       });
-      function openHello() {
-            dd.device.notification.alert({
-              message:"亲爱的33",
-              title:"提示",
-              buttonName:"收到",
-              onSuccess : function() {
-                  logger.i('hello');
-              },
-              onFail : function(err) {logger.i(err);}
-          });
+      
+      function openQrCode() {
+            dd.biz.util.scan({
+            type: 'barCode',type:'qrCode',
+	    //type为qrCode或者barCode
+            onSuccess: function(data) {
+            //onSuccess将在扫码成功之后回调 
+	     	/* data结构
+        		{'text': String} 
+     		 */
+		
+               alert(JSON.stringify(data))
+            },
+           onFail : function(err) {
+           }
+        });
       }
 
 
