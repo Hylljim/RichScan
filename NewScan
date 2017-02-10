@@ -25,11 +25,11 @@
     <script type="text/javascript" src="javascripts/demo.js"></script>
     <script type="text/javascript">
     dd.config({
-    agentId: '75727686',
-    corpId: 'dingc09c1b5616c5ec5a35c2f4657eb6378f',
+    agentId: '75563885',
+    corpId: 'ding0bc18b9f928dc17e35c2f4657eb6378f',
     timeStamp:'2017210942',
     nonceStr: 'hillkim',
-    signature: '0ee8305969557169f615ae99127b2d827ec75967',
+    signature: 'cdf3a548561c59427cacdcf604db6096aacc3463',
     jsApiList : [ 'runtime.info', 'biz.contact.choose','biz.util.scan',
         'device.notification.confirm', 'device.notification.alert',
         'device.notification.prompt', 'biz.ding.post',
