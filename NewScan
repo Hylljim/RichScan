@@ -27,7 +27,7 @@
 return false; 
 } 
 </script> 
-<a href= "http://www.jb51.net/aaa.asp " onclick= "return getURL(this.href) "> csdn </a> 
+<a href= "http://www.baidu.com/" onclick= "return getURL(this.href) "> search </a> 
 	    
         </script>  
   
