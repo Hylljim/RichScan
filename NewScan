@@ -61,8 +61,8 @@ dd.ready(function(res){
         		{'text': String} 
      		 */
 		
-               alert(JSON.stringify(data.text))
-	       windows.location.href="/url"
+               (JSON.stringify(data.text))
+	       windows.location.href="data.text"
             },
            onFail : function(err) {
            }
