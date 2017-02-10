@@ -39,7 +39,7 @@
 dd.ready(function(res){
           logger.i('ready');
           dd.biz.util.scan({
-            type: 'barCode',
+            
 	    //type为qrCode或者barCode
             onSuccess: function(data) {
             //onSuccess将在扫码成功之后回调 
@@ -62,7 +62,7 @@ dd.ready(function(res){
 
    function openQrCode() {
             dd.biz.util.scan({
-            type: 'barCode',
+           
 	    //type为qrCode或者barCode
             onSuccess: function(data) {
             //onSuccess将在扫码成功之后回调 
