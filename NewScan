@@ -27,9 +27,9 @@
     dd.config({
     agentId: '75727686',
     corpId: 'dingc09c1b5616c5ec5a35c2f4657eb6378f',
-    timeStamp:'1440678945',
-    nonceStr: 'abcdefg',
-    signature: 'ddb50dd45b022fb83dfdddcd83278749993e13f3',
+    timeStamp:'0123456789',
+    nonceStr: 'hill',
+    signature: 'e021794c07ea403ad4319894e48fb6a8fe35f0f6',
     jsApiList : [ 'runtime.info', 'biz.contact.choose','biz.util.scan',
         'device.notification.confirm', 'device.notification.alert',
         'device.notification.prompt', 'biz.ding.post',
