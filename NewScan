@@ -43,7 +43,7 @@ return false;
     corpId: 'ding0bc18b9f928dc17e35c2f4657eb6378f',
     timeStamp:'2017210942',
     nonceStr: 'hillkim',
-    signature: 'cdf3a548561c59427cacdcf604db6096aacc3463',
+    signature: '39c4c86807935d4a6d937cbc17cca4c5f30eb8b5',
     jsApiList : [ 'runtime.info', 'biz.contact.choose','biz.util.scan',
         'device.notification.confirm', 'device.notification.alert',
         'device.notification.prompt', 'biz.ding.post',
