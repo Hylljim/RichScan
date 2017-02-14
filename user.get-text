@@ -36,7 +36,7 @@ dd.ready(function() {
  	logger.i('ready');
     dd.biz.user.get({
         onSuccess: function (info) {
-            logger.e('userGet success: ' + JSON.stringify(info.text));
+            logger.e('userGet success: ' + JSON.stringify(info));
         },
         onFail: function (err) {
             logger.e('userGet fail: ' + JSON.stringify(err));
@@ -49,7 +49,7 @@ dd.ready(function() {
 
 dd.biz.user.get({
         onSuccess: function (info) {
-            logger.e('userGet success: ' + JSON.stringify(info.text));
+            logger.e('userGet success: ' + JSON.stringify(info));
         },
         onFail: function (err) {
             logger.e('userGet fail: ' + JSON.stringify(err));
