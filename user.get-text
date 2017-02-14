@@ -42,32 +42,9 @@ dd.ready(function() {
             logger.e('userGet fail: ' + JSON.stringify(err));
         }
     });
-
-	dd.runtime.permission.requestAuthCode({
-		corpId :ding0bc18b9f928dc17e35c2f4657eb6378f,
-		onSuccess : function(info) {
-			$.ajax({
-				url : 'userinfo?code=' + info.code + '&corpid='
-						+ _config.corpId,
-				type : 'GET',
-				success : function(data, status, xhr) {
-					var info = JSON.parse(data);
-
-					document.getElementById("userName").innerHTML = info.name;
-					document.getElementById("userId").innerHTML = info.userid;
-
-				},
-				error : function(xhr, errorType, error) {
-					logger.e("yinyien:" + _config.corpId);
-					alert(errorType + ', ' + error);
-				}
-			});
-
-		},
-		onFail : function(err) {
-			alert('fail: ' + JSON.stringify(err));
-		}
-	});
+    dd.error(function(err) {
+	alert('dd error: ' + JSON.stringify(err));
+	logger.i('ready');
 });
 
 dd.biz.user.get({
@@ -78,10 +55,6 @@ dd.biz.user.get({
             logger.e('userGet fail: ' + JSON.stringify(err));
         }
     });
-
-dd.error(function(err) {
-	alert('dd error: ' + JSON.stringify(err));
-});
     </script>
 </head>
 <body>
