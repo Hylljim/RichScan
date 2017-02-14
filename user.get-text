@@ -42,8 +42,8 @@ dd.ready(function() {
             logger.e('userGet fail: ' + JSON.stringify(err));
         }
     });
-    dd.error(function(err) {
-	alert('dd error: ' + JSON.stringify(err));
+    dd.error(function(error) {
+	alert('dd error: ' + JSON.stringify(error));
 	logger.i('ready');
 });
 
