@@ -32,12 +32,15 @@
 
 
 DingTalkPC.ready(function(res) {
+console.log("1");
  	logger.i('ready');
     DingTalkPC.biz.user.get({
+    console.log("2");
         onSuccess: function (info) {
             alert(JSON.stringify(info));
         },
         onFail: function (err) {
+	console.log("3");
             logger.e('userGet fail: ' + JSON.stringify(err));
         }
     });
