@@ -64,6 +64,6 @@ function test(){
     </script>
 </head>
 <body>
-<button onclick="test()"></button>
+<button onclick="test()">12314</button>
 </body>
 </html>
