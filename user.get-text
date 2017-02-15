@@ -35,7 +35,7 @@ DingTalkPC.ready(function(res) {
  	logger.i('ready');
     DingTalkPC.biz.user.get({
         onSuccess: function (info) {
-            (JSON.stringify(info));
+            alert(JSON.stringify(info));
         },
         onFail: function (err) {
             logger.e('userGet fail: ' + JSON.stringify(err));
