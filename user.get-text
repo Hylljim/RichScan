@@ -11,7 +11,6 @@
     body{background-color:grey;}
     </style>
     <script type="text/javascript">
-    var _config = <%= controler.GetConfigs.getConfig(request) %>;
 </script> 
 <!--         调用jquery需要的库，手机版和电脑版的不同 -->
         <script type="text/javascript" src="javascripts/zepto.min.js"> 
