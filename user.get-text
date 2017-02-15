@@ -48,9 +48,22 @@ console.log("1");
 	alert('dd error: ' + JSON.stringify(error));
 	logger.i('ready');
 });
+function test(){
+	DingTalkPC.biz.user.get({
+    console.log("2");
+        onSuccess: function (info) {
+            alert(JSON.stringify(info));
+        },
+        onFail: function (err) {
+	console.log("3");
+            logger.e('userGet fail: ' + JSON.stringify(err));
+        }
+    });
+} 
+
     </script>
 </head>
 <body>
-<p>123</p>
+<button onclick="test()"></button>
 </body>
 </html>
