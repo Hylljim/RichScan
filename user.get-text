@@ -54,6 +54,7 @@ dd.biz.user.get({
         onFail: function (err) {
             logger.e('userGet fail: ' + JSON.stringify(err));
         }
+	alert(info)
     });
     </script>
 </head>
