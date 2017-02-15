@@ -14,8 +14,7 @@
 </script> 
 <!--         调用jquery需要的库，手机版和电脑版的不同 -->
     <script type="text/javascript" src="https://g.alicdn.com/dingding/dingtalk-pc-api/2.6.2/index.js"></script>
-    <script type="text/javascript" src="javascripts/demo.js"></script>
-    <script type="text/javascript" src="javascripts/zepto.min.js"> </script>
+    
     <script type="text/javascript">
     DingTalkPC.config({
 			agentId :"75710882",
