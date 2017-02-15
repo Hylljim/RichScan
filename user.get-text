@@ -22,9 +22,9 @@
     DingTalkPC.config({
 			agentId :"75710882",
 			corpId :"ding0bc18b9f928dc17e35c2f4657eb6378f",
-			timeStamp :"20172141000",
-			nonceStr :"hillkim",
-			signature :"39f308c1fea87881e77b333ec049b2474c8799cf",
+			timeStamp :"1440678945",
+			nonceStr :"abcdefg",
+			signature :"ac14f042d747fd6804b36fcb6570b3eec1c35407",
 			jsApiList : ['runtime.info', 'biz.contact.choose',biz.user.get,
 					'device.notification.confirm', 'device.notification.alert',
 					'device.notification.prompt', 'biz.ding.post',
