@@ -32,7 +32,7 @@
 		});
 
 
-dd.ready(function() {
+dd.ready(function(res) {
  	logger.i('ready');
     dd.biz.user.get({
         onSuccess: function (info) {
@@ -47,16 +47,6 @@ dd.ready(function() {
 	alert('dd error: ' + JSON.stringify(error));
 	logger.i('ready');
 });
-
-dd.biz.user.get({
-        onSuccess: function (info) {
-            logger.e('userGet success: ' + JSON.stringify(info));
-        },
-        onFail: function (err) {
-            logger.e('userGet fail: ' + JSON.stringify(err));
-        }
-	alert(123)
-    });
     </script>
 </head>
 <body>
