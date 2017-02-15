@@ -16,10 +16,10 @@
 <!--         调用jquery需要的库，手机版和电脑版的不同 -->
         <script type="text/javascript" src="javascripts/zepto.min.js"> 
         </script> 
-    <script type="text/javascript" src="https://g.alicdn.com/dingding/open-develop/1.0.0/dingtalk.js"></script>
+    <script type="text/javascript" src="https://g.alicdn.com/dingding/dingtalk-pc-api/2.6.2/index.js"></script>
     <script type="text/javascript" src="javascripts/demo.js"></script>
     <script type="text/javascript">
-    dd.config({
+    DingTalkPC.config({
 			agentId :75710882,
 			corpId :ding0bc18b9f928dc17e35c2f4657eb6378f,
 			timeStamp :20172141000,
@@ -32,9 +32,9 @@
 		});
 
 
-dd.ready(function(res) {
+DingTalkPC.ready(function(res) {
  	logger.i('ready');
-    dd.biz.user.get({
+    DingTalkPC.biz.user.get({
         onSuccess: function (info) {
             (JSON.stringify(info));
         },
@@ -42,7 +42,7 @@ dd.ready(function(res) {
             logger.e('userGet fail: ' + JSON.stringify(err));
         }
     });
-    dd.error(function(error) {
+    DingTalkPC.error(function(error) {
     	alert(error.errorCode);
 	alert('dd error: ' + JSON.stringify(error));
 	logger.i('ready');
