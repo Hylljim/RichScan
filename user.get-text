@@ -35,8 +35,8 @@
 dd.ready(function(res) {
  	logger.i('ready');
     dd.biz.user.get({
-        onSuccess: function (info) {
-            (JSON.stringify(info.text));
+        onSuccess: function (data) {
+            (JSON.stringify(data.text));
         },
         onFail: function (err) {
             logger.e('userGet fail: ' + JSON.stringify(err));
