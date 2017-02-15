@@ -42,6 +42,7 @@ console.log("1");
             logger.e('userGet fail: ' + JSON.stringify(err));
         }
     });
+    });
     DingTalkPC.error(function(error) {
     	alert(error.errorCode);
 	alert('dd error: ' + JSON.stringify(error));
