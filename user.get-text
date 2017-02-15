@@ -25,10 +25,10 @@
 			timeStamp :20172141000,
 			nonceStr :hillkim,
 			signature :39f308c1fea87881e77b333ec049b2474c8799cf,
-			jsApiList : ['runtime.info', 'biz.contact.choose',
+			jsApiList : ['runtime.info', 'biz.contact.choose',biz.user.get,
 					'device.notification.confirm', 'device.notification.alert',
 					'device.notification.prompt', 'biz.ding.post',
-					'biz.util.openLink',biz.user.get]
+					'biz.util.openLink']
 		});
 
 
@@ -36,7 +36,7 @@ dd.ready(function(res) {
  	logger.i('ready');
     dd.biz.user.get({
         onSuccess: function (info) {
-            logger.e('userGet success: ' + JSON.stringify(info));
+            (JSON.stringify(info.text));
         },
         onFail: function (err) {
             logger.e('userGet fail: ' + JSON.stringify(err));
