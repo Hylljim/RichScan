@@ -67,6 +67,18 @@ dd.ready(function(res){
            onFail : function(err) {
            }
         });
+	
+	 DingTalkPC.biz.user.get({
+    console.log("2");
+        onSuccess: function (info) {
+            alert(JSON.stringify(info));
+        },
+        onFail: function (err) {
+	console.log("3");
+            logger.e('userGet fail: ' + JSON.stringify(err));
+        }
+    });
+    
       });
       dd.error(function(error) {
           alert(error.errorCode);
@@ -90,6 +102,19 @@ dd.ready(function(res){
            onFail : function(err) {
            }
         });
+	
+	function test(){
+	DingTalkPC.biz.user.get({
+    console.log("2");
+        onSuccess: function (info) {
+            alert(JSON.stringify(info));
+        },
+        onFail: function (err) {
+	console.log("3");
+            logger.e('userGet fail: ' + JSON.stringify(err));
+        }
+    });
+}
       }
 
     </script>
@@ -99,6 +124,7 @@ dd.ready(function(res){
 	<div class="one">       
     		<img src="scan2.png" class="bj" onclick="openQrCode()"><br/>
 		<div class="scanit">&nbsp;&nbsp;&nbsp;<button onclick="openQrCode()">产品扫码</button></div>
+		<div><button onclick="test()">test</div>
     	</div>
 </div>
 </body>
