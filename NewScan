@@ -37,9 +37,7 @@ return false;
         </script> 
     <script type="text/javascript" src="https://g.alicdn.com/dingding/open-develop/1.0.0/dingtalk.js"></script>
     <script type="text/javascript" src="javascripts/demo.js"></script>
-    <script type="text/javascript">
-    var _config = <%= controler.GetConfigs.getConfig(request) %>; 
-    
+    <script type="text/javascript">  
     dd.config({
     agentId: '75563885',
     corpId: 'ding0bc18b9f928dc17e35c2f4657eb6378f',
@@ -69,7 +67,6 @@ dd.ready(function(res){
            onFail : function(err) {
            }
         });
-    
       });
       dd.error(function(error) {
           alert(error.errorCode);
