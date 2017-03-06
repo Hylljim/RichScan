@@ -26,10 +26,7 @@
 } 
 return false; 
 } 
-</script> 
-<a href= "http://www.baidu.com/" onclick= "return getURL(this.href) "> search </a> 
-	    
-        </script>  
+</script>
   
 <!--         调用jquery需要的库，手机版和电脑版的不同 -->
         <script type="text/javascript" src="javascripts/zepto.min.js">  
@@ -74,7 +71,7 @@ dd.ready(function(res){
           logger.i('ready');
       });
 
-   function openQrCode() {
+   function openbarCode() {
             dd.biz.util.scan({
            type: 'barCode',
 	    //type为qrCode或者barCode
@@ -98,8 +95,8 @@ dd.ready(function(res){
 <body>
 <div class="all">
 	<div class="one">       
-    		<img src="scan2.png" class="bj" onclick="openQrCode()"><br/>
-		<div class="scanit">&nbsp;&nbsp;&nbsp;<button onclick="openQrCode()">产品扫码</button></div>
+    		<img src="scan2.png" class="bj" onclick="openbarCode()"><br/>
+		<div class="scanit">&nbsp;&nbsp;&nbsp;<button onclick="openbarCode()">产品扫码</button></div>
 		
     	</div>
 </div>
