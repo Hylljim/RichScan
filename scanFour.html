@@ -8,10 +8,60 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="format-detection" content="telephone=no">
     <style type="text/css">
-         body{background:url(自行车壁纸.jpg);width:auto;height:auto;}
-        img {width:100px; height:100px;} 
-	.all{margin:130px 140px 140px 130px;}
-	.scanit{width:200px;height:200px;color:#6FC;}
+        body{
+			background:url(../../w-picture/bbg1.jpg);
+			}
+        img1 {
+			width:100px; height:100px;
+			} 
+		.one{
+			margin-left:17%;
+			margin-top:15%;
+			}
+		.one p{
+			margin-top:-20%;
+			margin-left:10.35%;
+			position:relative;
+			color:#666;
+			font-weight:bold;
+			}
+			
+		.two{
+			float:right;
+			margin-right:17%;
+			margin-top:-21.8%;
+			}
+		.two p{
+			margin-top:-61%;
+			margin-left:30.35%;
+			position:relative;
+			color:#666;
+			font-weight:bold;
+			}
+		.three{
+			margin-left:17%;
+			margin-top:25%;
+			}
+		.three p{
+			margin-top:-20%;
+			margin-left:10.35%;
+			position:relative;
+			color:#666;
+			font-weight:bold;
+			}
+		.four{
+			float:right;
+			margin-right:17%;
+			margin-top:-21.8%;
+			}
+		.four p{
+			margin-top:-61%;
+			margin-left:30.35%;
+			position:relative;
+			color:#666;
+			font-weight:bold;
+			}
+		
     </style>
     <script type="text/javascript">  
             var _config = <%= controler.GetConfigs.getConfig(request) %>;  
@@ -81,11 +131,28 @@ dd.ready(function(res){
 </head>
 <body>
 <div class="all">
-	<div class="one">       
-    		<img src="scan2.png" class="bj" onclick="openbarCode()"><br/>
-		<div class="scanit">&nbsp;&nbsp;&nbsp;<button onclick="openbarCode()">产品扫码</button></div>
-		
-    	</div>
+    <div class="one">      
+    		<img class="img1" src="scan2.png" class="bj" onclick="openbarCode()"><br/>
+            <p>扫码1</p>
+    </div>
+    
+	<div class="two">      
+    		<img class="img2" src="scan2.png" class="bj" onclick="openbarCode()"><br/>
+            <p>扫码2</p>
+    </div>
+    
+	<div class="three">      
+    		<img class="img3" src="scan2.png" class="bj" onclick="openbarCode()"><br/>
+            <p>扫码3</p>
+    </div>
+    
+	<div class="four">      
+    		<img class="img4" src="scan2.png" class="bj" onclick="openbarCode()"><br/>
+            <p>扫码4</p>
+    </div> 
+	
+	
+	
 </div>
 </body>
 </html>
