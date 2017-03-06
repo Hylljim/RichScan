@@ -15,36 +15,26 @@
     </style>
     <script type="text/javascript">  
             var _config = <%= controler.GetConfigs.getConfig(request) %>;  
-	   
-		function getURL(url) { 
-		var xmlhttp = new ActiveXObject( "Microsoft.XMLHTTP"); 
-		xmlhttp.open("GET", url, false); 
-		xmlhttp.send(); 
-		if(xmlhttp.readyState==4) { 
-		if(xmlhttp.Status != 200) alert("不存在"); 
-		return xmlhttp.Status==200; 
-} 
-return false; 
-} 
-</script>
+    </script>
   
 <!--         调用jquery需要的库，手机版和电脑版的不同 -->
         <script type="text/javascript" src="javascripts/zepto.min.js">  
 	
         </script> 
     <script type="text/javascript" src="https://g.alicdn.com/dingding/open-develop/1.0.0/dingtalk.js"></script>
+    <script type="text/javascript" src="http://g.alicdn.com/dingding/open-develop/1.0.0/dingtalk.js"></script>
     <script type="text/javascript" src="javascripts/demo.js"></script>
     <script type="text/javascript">  
     dd.config({
-    agentId: '75563885',
-    corpId: 'ding0bc18b9f928dc17e35c2f4657eb6378f',
-    timeStamp:'2017210942',
-    nonceStr: 'hillkim',
-    signature: '39c4c86807935d4a6d937cbc17cca4c5f30eb8b5',
-    jsApiList : [ 'runtime.info', 'biz.contact.choose','biz.util.scan',
-        'device.notification.confirm', 'device.notification.alert',
-        'device.notification.prompt', 'biz.ding.post',
-        'biz.util.openLink' ] 
+    		agentId: '75563885',
+   		corpId: 'ding0bc18b9f928dc17e35c2f4657eb6378f',
+    		timeStamp:'2017210942',
+    		nonceStr: 'hillkim',
+    		signature: '39c4c86807935d4a6d937cbc17cca4c5f30eb8b5',
+    		jsApiList : [ 'runtime.info', 'biz.contact.choose','biz.util.scan',
+        		'device.notification.confirm', 'device.notification.alert',
+       			'device.notification.prompt', 'biz.ding.post',
+        		'biz.util.openLink' ] 
 });
 
 dd.ready(function(res){
@@ -88,7 +78,7 @@ dd.ready(function(res){
            }
         });
 }
-      }
+      
 
     </script>
 </head>
