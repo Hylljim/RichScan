@@ -109,8 +109,13 @@ dd.ready(function(res){
         		{'text': String} 
      		 */
 		
-               alert(JSON.stringify(data.text))
-	       window.location.href="data.text"
+               alert(JSON.stringify(data.text));
+		    var ahref=data.text;
+		    if(ahref==""){
+	       alert("扫码内容为空")
+		    }else{
+		    window.location.href="ahref"
+		    }
             },
            onFail : function(err) {
            }
@@ -131,8 +136,13 @@ dd.ready(function(res){
         		{'text': String} 
      		 */
 		
-               alert(JSON.stringify(data.text))
-	       window.location.href="data.text"
+               alert(JSON.stringify(data.text));
+		    var ahref=data.text;
+		    if(ahref==""){
+	       alert("扫码内容为空")
+		    }else{
+		    window.location.href="ahref"
+		    }
             },
            onFail : function(err) {
            }
