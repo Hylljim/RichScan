@@ -112,8 +112,11 @@ table td{
 	window.location.href="dingtalk://dingtalkclient/action/switchtab?index=2&name=work&scene=1&corpid=ding0bc18b9f928dc17e35c2f4657eb6378f&appid=-6"
 		});
 	$("#pageone").on("swipeleft",function(){
-		alert("123");
+		$("#pageone").attr("src","imgbg.jpg");
 		});
+	$("#pageone").on("swiperight",function(){
+		$("#pageone").attr("src","book.jpg");
+		});	
 	});
 </script>
 </head>
