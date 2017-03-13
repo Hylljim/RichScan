@@ -122,21 +122,21 @@ table td{
 	$(".img13").click(function(){
 	window.location.href="dingtalk://dingtalkclient/action/switchtab?index=2&name=work&scene=1&corpid=ding0bc18b9f928dc17e35c2f4657eb6378f&appid=2"
 		});
-	$(".edit").click(function(){
-		$(".shadow1").addClass("shadow")
 	$("#pageone").on("swipeleft",function(){
 		$("#pageone").attr("src","imgbg.jpg");
 		});
 	$("#pageone").on("swiperight",function(){
 		$("#pageone").attr("src","book.jpg");
 		});
+		
+	$(".edit").click(function(){
+		$(".shadow1").addClass("shadow");
 	$(".img1").on("taphold",function(){
 		$(".img1").hide();
 		});			
 	$(".img2").on("taphold",function(){
 		$(".img2").hide();
-		});
-			
+		});		
 	$(".img3").on("taphold",function(){
 		$(".img3").hide();
 		});		
