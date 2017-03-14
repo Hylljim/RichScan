@@ -80,6 +80,9 @@ table td{
 .shadow{
 	box-shadow:0 0 10px #999;
 	}
+	.testbg{
+		background-color:red;
+	}
 </style>
 <script type="text/javascript">
 	$(function(){
@@ -290,6 +293,16 @@ table td{
 	});
 	});
 </script>
+	<script type="text/javascript">
+	$(function(){
+	$(".test").ontouchstart(function(){
+		$(".test").addClass("testbg")
+		});
+		$(".test").ontouchend(function(){
+			$(".test").removeClass("testbg")
+			});
+	});
+	</script>
 </head>
 
 <body>
@@ -329,7 +342,7 @@ table td{
         <td><img style="width:50%" class="img12 shadow1" src="http://static.dingtalk.com/media/lALOSqpWSMzIzMg_200_200.png"><span class="img12"><br/>签到<span><br/>&nbsp;</span></span></td>
     </tr> 
     <tr>
-    	<td class="td1"><img style="width:50%" class="img14 shadow1"  src="添加.png"><span class="img14"><br/>添加<span><br/>&nbsp;</span></span></td>
+    	<td class="td1 test"><img style="width:50%" class="img14 shadow1"  src="添加.png"><span class="img14"><br/>添加<span><br/>&nbsp;</span></span></td>
         <td></td>
         <td></td>
         <td></td>
