@@ -130,7 +130,7 @@ table td{
 		});
 		
 	$(".edit").click(function(){
-		$(".shadow1").addClass("shadow");
+		$(".shadow1").toggleClass("shadow");
 	$(".img1").on("taphold",function(){
 		$(".img1").hide();
 		});			
@@ -170,6 +170,15 @@ table td{
 	$(".img13").on("taphold",function(){
 		$(".img13").hide();
 		});
+	if($(".img1").hasClass("shadow")){
+	$(".img1").on("taphold",function(){
+	$(".img1").hide();
+	});
+	}else{
+	$(".img1").on("taphold",function(){
+	$(".img1").show();
+	});
+	}
 	});
 	});
 </script>
